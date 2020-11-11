@@ -6,7 +6,7 @@ namespace SistemaPedidos.Entities
     class Order
     {
         public int Id { get; set; }
-        public int Moment { get; set; }
+        public DateTime Moment { get; set; }
 
         public OrderStatus Status { get; set; }
 
