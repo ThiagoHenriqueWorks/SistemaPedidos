@@ -17,6 +17,12 @@ namespace SistemaPedidos
 
             };
             Console.WriteLine(order);
+
+            string txt = OrderStatus.PendingPayment.ToString();
+            Console.WriteLine(txt);
+
+            OrderStatus os = Enum.Parse<OrderStatus>("Delivered");  
+            Console.WriteLine(os);
         }
     }
 }
